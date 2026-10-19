@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let salario = 0
+        let reajuste = 0
+        let novoSalario = 0
+        
+        salario = Number(prompt("Digite o salário a ser reajustado"))
+        reajuste = (Number(prompt("Digite o valor percentual do reajuste")) /100)
+
+        novoSalario = salario + (salario * reajuste)
+
+        alert("Com o reajuste selecionado, seu novo salário será de: " + novoSalario)
+    </script>
+</body>
+</html>
