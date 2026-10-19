@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let altura
+        let sexo
+        let peso_ideal
+
+        altura = Number(prompt("Digite sua altura (Ex: 1.65): "))
+        sexo = prompt("Digite seu sexo (F/M): ")
+
+        if (sexo == "M") {
+            alert("Seu peso ideal é: " + ((72 * altura) - 58))
+        } 
+        else if (sexo == "F") {
+            alert ("Seu peso ideal é: " + ((62 * altura) - 44))
+        } else {
+            alert("Digite um sexo válido: F(Feminino) ou M(Masculino)")
+        }
+
+    </script>
+</body>
+</html>
