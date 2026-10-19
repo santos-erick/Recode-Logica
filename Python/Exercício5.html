@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>10
+    <script>
+        let preco_inicial = 0
+        
+        preco_inicial = Number(prompt("Digite o valor do produto para saber seu valor final com 15% de desconto: "))
+
+        let desconto = preco_inicial * 0.15
+
+        let preco_final = preco_inicial - desconto
+
+
+        if (preco_final >= 500) {
+        alert("O valor final com 15% de desconto é: " + preco_final + "\nEste valor é considerado alto!")
+            
+        } else {
+            alert("O valor final com 15% de desconto é: " + preco_final + "\nEste valor é considerado baixo!")
+        }
+    </script>
+</body>
+</html>
